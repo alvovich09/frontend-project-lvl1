@@ -14,7 +14,7 @@ const runGcdGame = () => {
   const findDevisor = (first, second) => {
     const stack = [];
 
-    for (let devisor = 1; (devisor < first) && (devisor < second); devisor += 1) {
+    for (let devisor = 1; (devisor <= first) && (devisor <= second); devisor += 1) {
       if ((first % devisor === 0) && (second % devisor === 0)) {
         stack.push(devisor);
       }

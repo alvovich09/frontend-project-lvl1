@@ -4,3 +4,5 @@ Hello, alvovich
 [![asciicast](https://asciinema.org/a/W89iiaMbwe4svuArvbiEISY2P.svg)](https://asciinema.org/a/W89iiaMbwe4svuArvbiEISY2P)
 [![asciicast](https://asciinema.org/a/5UlpIL6cVwHfarSafoprxcsY4.svg)](https://asciinema.org/a/5UlpIL6cVwHfarSafoprxcsY4)
 [![asciicast](https://asciinema.org/a/pMMoE9tJ9KuetLBEVfrOU38fa.svg)](https://asciinema.org/a/pMMoE9tJ9KuetLBEVfrOU38fa)
+[![asciicast](https://asciinema.org/a/QTqX4rjVahu78aYpYeAcX1xWf.svg)](https://asciinema.org/a/QTqX4rjVahu78aYpYeAcX1xWf)
+[![asciicast](https://asciinema.org/a/M0ITteB9B7jMhRYGE1aivO0lu.svg)](https://asciinema.org/a/M0ITteB9B7jMhRYGE1aivO0lu)
