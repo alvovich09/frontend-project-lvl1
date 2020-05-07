@@ -8,7 +8,7 @@ const isPrime = (number) => {
     return 'no';
   }
 
-  for for (let i = 2; i <= number / 2; i += 1) {
+  for (let i = 2; i <= number / 2; i += 1) {
     if (number % i === 0) {
       return 'no';
     }
@@ -17,12 +17,11 @@ const isPrime = (number) => {
 };
 
 const getData = () => {
-
   const question = getRandomNumber(1, 100);
   const rightAnswer = String(isPrime(question));
 
   return [question, rightAnswer];
 };
 
-const runPrimeGame = () => {runGame(getData, condition);};
+const runPrimeGame = () => { runGame(getData, condition); };
 export default runPrimeGame;
