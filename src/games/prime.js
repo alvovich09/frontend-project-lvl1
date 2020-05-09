@@ -23,5 +23,4 @@ const getData = () => {
   return [question, rightAnswer];
 };
 
-const runPrimeGame = () => { runGame(getData, condition); };
-export default runPrimeGame;
+export default () => runGame(getData, condition);

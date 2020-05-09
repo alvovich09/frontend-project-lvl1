@@ -1,7 +1,7 @@
 {
   "name": "alvovich09",
   "version": "1.0.0",
-  "description": "Hello, alvovich",
+  "description": "This is my first project on hexlet on js. Thanks for watching!",
   "main": "src/index.js",
   "bin": {
     "brain-games": "bin/games.js",

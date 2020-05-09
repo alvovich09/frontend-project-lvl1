@@ -3,30 +3,29 @@ import runGame from '../index.js';
 
 const condition = 'What number is missing in the progression?';
 
-const makeProgression = (first, randomPlus) => {
-  let result = 0;
+const makeProgression = (first, step) => {
+  const size = 9;
   const progression = [];
 
-  for (let i = 0; i <= 9; i += 1) {
-    result = first + (i - 1) * randomPlus;
-    progression.push(result);
+  for (let i = 0; i <= size; i += 1) {
+    const element = first + (i * step);
+    progression.push(element);
   }
+
   return progression;
 };
 
 const getData = () => {
   const missingNumber = getRandomNumber(1, 10);
   const first = getRandomNumber(1, 50);
-  const randomPlus = getRandomNumber(1, 10);
-  const progression = makeProgression(first, randomPlus);
+  const step = getRandomNumber(1, 10);
+  const progression = makeProgression(first, step);
   const rightAnswer = String(progression[missingNumber]);
   progression[missingNumber] = '..';
-  const question = String(progression);
+  const question = String(progression.join(' '));
 
   return [question, rightAnswer];
 };
 
 
-const runProgressionGame = () => { runGame(getData, condition); };
-
-export default runProgressionGame;
+export default () => runGame(getData, condition);

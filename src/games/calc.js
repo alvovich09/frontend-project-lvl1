@@ -17,17 +17,15 @@ const makeCalc = (symbol, number, secondNumber) => {
 };
 
 const getData = () => {
-  const number = getRandomNumber(1, 50);
+  const firstNumber = getRandomNumber(1, 50);
   const secondNumber = getRandomNumber(1, 50);
   const symbols = ['-', '+', '*'];
-  const randomIndex = getRandomNumber(0, 2);
+  const randomIndex = getRandomNumber(0, (symbols.length - 1));
   const randomSymbol = symbols[randomIndex];
-  const question = `${number} ${randomSymbol} ${secondNumber}`;
-  const rightAnswer = String(makeCalc(randomSymbol, number, secondNumber));
+  const question = `${firstNumber} ${randomSymbol} ${secondNumber}`;
+  const rightAnswer = String(makeCalc(randomSymbol, firstNumber, secondNumber));
 
   return [question, rightAnswer];
 };
 
-const runCalcGame = () => { runGame(getData, condition); };
-
-export default runCalcGame;
+export default () => runGame(getData, condition);
