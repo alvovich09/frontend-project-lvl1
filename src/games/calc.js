@@ -16,7 +16,7 @@ const makeCalc = (symbol, number, secondNumber) => {
   }
 };
 
-const getData = () => {
+const getDataRound = () => {
   const firstNumber = getRandomNumber(1, 50);
   const secondNumber = getRandomNumber(1, 50);
   const symbols = ['-', '+', '*'];
@@ -28,4 +28,4 @@ const getData = () => {
   return [question, rightAnswer];
 };
 
-export default () => runGame(getData, condition);
+export default () => runGame(getDataRound, condition);

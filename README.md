@@ -10,3 +10,9 @@
 [![asciicast](https://asciinema.org/a/EoEPuOFAKT9iFTMPDNwzYcEUQ.svg)](https://asciinema.org/a/EoEPuOFAKT9iFTMPDNwzYcEUQ)
 [![asciicast](https://asciinema.org/a/8WMBjjldfm7GtpBrG3dDaDU6Y.svg)](https://asciinema.org/a/8WMBjjldfm7GtpBrG3dDaDU6Y)
 [![asciicast](https://asciinema.org/a/TsQZjoRcnrKGeVOVnOEyIf3qU.svg)](https://asciinema.org/a/TsQZjoRcnrKGeVOVnOEyIf3qU)
+Список команд для запуска игр: 
+brain-even - определение четности числа
+brain-calc - сложение, вычитание или умножение двух чисел
+brain-gcd - поиск наибольшего общего делителя
+brain-progression - поиск пропущенного числа в прогрессии 
+brain-prime - нужно ответить на вопрос:"Просто ли число?" 
