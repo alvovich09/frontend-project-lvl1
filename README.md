@@ -1,6 +1,6 @@
 ![frontend-project1](https://github.com/alvovich09/frontend-project-lvl1/workflows/frontend-project1/badge.svg) 
-[![Maintainability](https://api.codeclimate.com/v1/badges/df6b0cfdc4622ffe6bff/maintainability)](https://codeclimate.com/github/alvovich09/frontend-project-lvl1/maintainability)
-#Список команд для запуска игр:  #
+[![Maintainability](https://api.codeclimate.com/v1/badges/df6b0cfdc4622ffe6bff/maintainability)](https://codeclimate.com/github/alvovich09/frontend-project-lvl1/maintainability)  
+#Список команд для запуска игр:  #  
 *brain-even - определение четности числа  
 *brain-calc - сложение, вычитание или умножение двух чисел  
 *brain-gcd - поиск наибольшего общего делителя  
