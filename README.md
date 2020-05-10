@@ -1,4 +1,4 @@
-![frontend-project1](https://github.com/alvovich09/frontend-project-lvl1/workflows/frontend-project1/badge.svg) 
+[![frontend-project1](https://github.com/alvovich09/frontend-project-lvl1/workflows/frontend-project1/badge.svg)](https://github.com/alvovich09/frontend-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/df6b0cfdc4622ffe6bff/maintainability)](https://codeclimate.com/github/alvovich09/frontend-project-lvl1/maintainability)  
 # Список команд для работы Makefile: #  
 *make install - npm install - установка пакета npm  
