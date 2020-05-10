@@ -16,7 +16,7 @@ const makeProgression = (first, step) => {
   return progression;
 };
 
-const getRoundData = () => {
+const getRound = () => {
   const missingNumber = getRandomNumber(1, size);
   const first = getRandomNumber(1, 50);
   const step = getRandomNumber(1, 10);
@@ -29,4 +29,4 @@ const getRoundData = () => {
 };
 
 
-export default () => runGame(getRoundData, condition);
+export default () => runGame(getRound, condition);
