@@ -17,12 +17,12 @@ const makeProgression = (first, step) => {
 };
 
 const getRound = () => {
-  const missingNumber = getRandomNumber(1, size);
+  const missingIndex = getRandomNumber(1, size);
   const first = getRandomNumber(1, 50);
   const step = getRandomNumber(1, 10);
   const progression = makeProgression(first, step);
-  const rightAnswer = String(progression[missingNumber]);
-  progression[missingNumber] = '..';
+  const rightAnswer = String(progression[missingIndex]);
+  progression[missingIndex] = '..';
   const question = String(progression.join(' '));
 
   return [question, rightAnswer];
