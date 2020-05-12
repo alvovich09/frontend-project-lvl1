@@ -1,13 +1,10 @@
 [![frontend-project1](https://github.com/alvovich09/frontend-project-lvl1/workflows/frontend-project1/badge.svg)](https://github.com/alvovich09/frontend-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/df6b0cfdc4622ffe6bff/maintainability)](https://codeclimate.com/github/alvovich09/frontend-project-lvl1/maintainability)  
-# Список команд для работы Makefile: #  
-make install - npm install - установка пакета npm  
-make publish - npm publish --dry-run - публикация пакета в репозитории  
-npm link - публикация пакета в хранилище npm   
-# Список команд для работы линтера: #  
-make lint - поиск ошибок линтера  
-make lintfix - автоматическое радактирование найденных ошибок, если это возможно  
-# Список команд для запуска игр:  #  
+# Brain games #  
+git clone git@github.com:alvovich09/frontend-project-lvl1.git
+make install - npm install 
+make publish - npm publish --dry-run - 
+npm link 
 brain-even - определение четности числа  
 brain-calc - сложение, вычитание или умножение двух чисел  
 brain-gcd - поиск наибольшего общего делителя  
