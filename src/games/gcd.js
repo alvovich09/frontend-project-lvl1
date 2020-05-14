@@ -6,10 +6,10 @@ const condition = 'Find the greatest common divisor of given numbers.';
 const getGcd = (first, second) => (second === 0 ? first : getGcd(second, first % second));
 
 const getRound = () => {
-  const number = getRandomNumber(1, 50);
+  const firstNumber = getRandomNumber(1, 50);
   const secondNumber = getRandomNumber(1, 100);
-  const question = `${number} ${secondNumber}`;
-  const rightAnswer = String(getGcd(number, secondNumber));
+  const question = `${firstNumber} ${secondNumber}`;
+  const rightAnswer = String(getGcd(firstNumber, secondNumber));
 
   return [question, rightAnswer];
 };

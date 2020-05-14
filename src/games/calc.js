@@ -19,9 +19,9 @@ const makeCalc = (symbol, number, secondNumber) => {
 const getRound = () => {
   const firstNumber = getRandomNumber(1, 50);
   const secondNumber = getRandomNumber(1, 50);
-  const symbols = ['-', '+', '*'];
-  const randomIndex = getRandomNumber(0, (symbols.length - 1));
-  const randomSymbol = symbols[randomIndex];
+  const operations = ['-', '+', '*'];
+  const randomIndex = getRandomNumber(0, (operations.length - 1));
+  const randomSymbol = operations[randomIndex];
   const question = `${firstNumber} ${randomSymbol} ${secondNumber}`;
   const rightAnswer = String(makeCalc(randomSymbol, firstNumber, secondNumber));
 
