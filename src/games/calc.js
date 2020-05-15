@@ -20,10 +20,10 @@ const getRound = () => {
   const firstNumber = getRandomNumber(1, 50);
   const secondNumber = getRandomNumber(1, 50);
   const operations = ['-', '+', '*'];
-  const randomIndex = getRandomNumber(0, (operations.length - 1));
-  const randoOperation = operations[randomIndex];
-  const question = `${firstNumber} ${randoOperation} ${secondNumber}`;
-  const rightAnswer = String(makeCalc(randoOperation, firstNumber, secondNumber));
+  const randomIndex = getRandomNumber(0, operations.length - 1);
+  const randomOperation = operations[randomIndex];
+  const question = `${firstNumber} ${randomOperation} ${secondNumber}`;
+  const rightAnswer = String(makeCalc(randomOperation, firstNumber, secondNumber));
 
   return [question, rightAnswer];
 };
