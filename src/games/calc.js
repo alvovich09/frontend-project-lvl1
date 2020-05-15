@@ -21,9 +21,9 @@ const getRound = () => {
   const secondNumber = getRandomNumber(1, 50);
   const operations = ['-', '+', '*'];
   const randomIndex = getRandomNumber(0, (operations.length - 1));
-  const randomSymbol = operations[randomIndex];
-  const question = `${firstNumber} ${randomSymbol} ${secondNumber}`;
-  const rightAnswer = String(makeCalc(randomSymbol, firstNumber, secondNumber));
+  const randomOperations = operations[randomIndex];
+  const question = `${firstNumber} ${randomOperations} ${secondNumber}`;
+  const rightAnswer = String(makeCalc(randomOperations, firstNumber, secondNumber));
 
   return [question, rightAnswer];
 };
